@@ -1,0 +1,147 @@
+Error in <TSystem::ExpandFileName>: input: $HOME/.root.mimes, output: $HOME/.root.mimes
+
+
+*****************************************************************************************************************
+*                                                                                                               *
+*                                                   .oooooo.    oooooooooooo ooooo      ooo ooooo oooooooooooo  *
+*                                                  d8P'  `Y8b   `888'     `8 `888b.     `8' `888' `888'     `8  *
+*                                                 888            888          8 `88b.    8   888   888          * 
+*                        Ndyooym          dN      888            888oooo8     8   `88b.  8   888   888oooo8     *
+*                     Nds//+sdmoy       d+m       888     ooooo  888    "     8     `88b.8   888   888    "     * 
+*                   Nh+//ohN  m+s      N//syyN    `88.    .88'   888       o  8       `888   888   888       o  *
+*                 Ny+//od   Nh+oN       o///+      `Y8bood8P'   o888ooooood8 o8o        `8  o888o o888ooooood8  *
+*               Nh+//om   Nh+/yN       o///s                                                                    *
+*              d+//+d   my+/smmyhN    m///h                                      NEUTRINO MONTE CARLO GENERATOR *   
+*            Ns///yN NdyoshNNs///d   h////yN                                                                    *
+*           mo//om        ms///+m   d///////oyhmN                                           Version 3.06.00     *
+*          N+//yN       ms////+N    h////////////oym                                                            *
+*          s//h       ho/+///sN     N///////////////od                                  http://www.genie-mc.org *
+*         N+/h     my++yh+//y       s/////////////////oN                                                        *
+*         Ns/m Nmy++ymNh//+d        s//////////////////+m                                                       *
+*          NhssoshN  Ny//sN         m///////////////////+                                                       *
+*                  Nmo/+ohdmN        mo//////////////////h            NmmN                                      *
+*              ms/+s//o/-----:+sdN     mhso+ooys/////////o      mhs+/------/ohN                                 *
+*    Nhd     N+-/o+/o+------------/shN     Ndy+//////////+ mhs+:---------------om                               *
+*  mo/sN    m:/oo/oo:-----------------:://////////////////-----------------------y                              *
+*  y//d    Noo++o+:----------:------------:://///////////:-------:/+osyso/:-------h                             *
+*  Nyo+syysooo+/--------------::--------------:://///////:----::////+ossyso/------:                             *
+*     NNNNNs--------------------:/::-------------:://///:-:://////////oosyo+:------                             *
+*          y---------------------:////:::-----------:////////////////+o++++/:-----/                             *
+*          m-----------------------://////////////////////////////+so/--:---------y                             *
+*           +------------------------://////////////////////////+yy:---+oh/--:y+-/N                             *
+*           N/-------------------------://////////////////////ohy/-------yy--os-/m                              *
+*            No--------------------------://///////////////+shs/---------/d++/-oN                               *
+*              mo--------------------------:////////////+shyo:------------sy/sm                                 *
+*                Ny+:------------------------::://///oyhyo:--------------/sd                                    *
+*                    mhso+/:------------------:/+oyhyo/----------:/+syhm                                        *
+*                           NmddhyyyssssyyyhdmmNNNmhhhyyyyhhddmN                                                *
+*                                                                                                               *
+*                                                             Copyright (c) 2003-2024, The GENIE Collaboration  *
+*                                                                                                               *
+*                                                                                                               *
+* Luis Alvarez-Ruso [6], Costas Andreopoulos [9], Adi Ashkenazi [13], Joshua Barrow [10,13], Steve Dytman [12], *
+*      Hugh Gallagher [14], Alfonso Andres Garcia Soto [5,6], Steven Gardiner [4], Matan Goldenberg [13],       *
+*  Robert Hatcher [4], Or Hen [10], Igor Kakorin [8], Konstantin Kuzmin [7,8], Weijun Li [11], Liang Liu [4],   *
+*   Xianguo Lu [15], Anselmo Meregaglia [2], Vadim Naumov [8], Afroditi Papadopoulou [1], Gabriel Perdue [3],   *
+*   Komninos-John Plows [11], Marco Roda [9], Alon Sportes [13], Noah Steinberg [4], Vladyslav Syrotenko [14],  *
+*                         Júlia Tena Vidal [13], Jeremy Wolcott [14], and Qiyu Yan [3,15]                       *
+*                                                                                                               *
+*                                            (The GENIE Collaboration)                                          *
+*                                                                                                               *
+*                                      [1] Argonne National Laboratory (ANL)                                    *
+*                                 [2] CENBG, Université de Bordeaux, CNRS/IN2P3                                 *
+*                             [3] University of the Chinese Academy of Sciences (UCAS)                          *
+*                                 [4] Fermi National Accelerator Laboratory (FNAL)                              *
+*                                      [5] Harvard University, Dept. of Physics                                 *   
+*                                     [6] Instituto de Física Corpuscular (IFIC)                                *
+*      [7] Alikhanov Institute for Theoretical and Experimental Physics (ITEP) of NRC "Kurchatov Institute"     *
+*                                  [8] Joint Institute for Nuclear Research (JINR)                              *
+*                                   [9] University of Liverpool, Dept. of Physics                               *
+*                         [10] Massachusetts Institute of Technology (MIT), Dept. of Physics                    *
+*                                    [11] University of Oxford, Dept. of Physics                                *
+*                            [12] University of Pittsburgh, Dept. of Physics and Astronomy                      *
+*                              [13] Tel Aviv University, School of Physics and Astronomy                        *
+*                                [14] Tufts University, Dept. of Physics and Astronomy                          *
+*                                     [15] Warwick University, Dept. of Physics                                 *
+*                                                                                                               *
+*  Corresponding Author:                                                                                        *
+*  -                                                                                                            *
+*  Professor Costas Andreopoulos                                                                                *
+*  University of Liverpool, Department of Physics                                                               *
+*  Oliver Lodge Lab 316, Liverpool L69 7ZE, UK                                                                  *
+*  E-Mail: c.andreopoulos \at cern.ch                                                                           *
+*  Tel: +44-(0)1517-943201                                                                                      *
+*****************************************************************************************************************
+
+
+Info in <TGeoManager::Import>: Reading geometry from file: /storage/gpfs_data/neutrino/users/gsantoni/productions/SAND_2/SAND_2_0/EC_yoke_corrected_1212_dev_SAND_complete_opt3_DRIFT1.root
+1737472162 NOTICE Messenger : [s] <SetPrioritiesFromXmlFile (136)> : Reading msg stream priorities from XML file: //opt/exp_software/neutrino/al9/GENIE/R-3_06_00/source/config/Messenger.xml
+1737472162 INFO gmxpl : [n] <gMaxPathLengths.cxx::GetCommandLineArgs (152)> : Parsing command line arguments
+1737472162 INFO TuneId : [n] <TuneId.cxx::Build (132)> : G18_02a_00_000 Tune configured 
+1737472162 INFO gmxpl : [n] <gMaxPathLengths.cxx::GetCommandLineArgs (238)> : Unspecified random number seed - Using default
+1737472162 NOTICE gmxpl : [n] <gMaxPathLengths.cxx::GetCommandLineArgs (243)> : 
+
+********************
+  gmxpl job inputs  
+********************
+
+1737472162 NOTICE gmxpl : [n] <gMaxPathLengths.cxx::GetCommandLineArgs (246)> : Command line arguments
+1737472162 NOTICE gmxpl : [n] <gMaxPathLengths.cxx::GetCommandLineArgs (247)> : Input ROOT geometry     : /storage/gpfs_data/neutrino/users/gsantoni/productions/SAND_2/SAND_2_0/EC_yoke_corrected_1212_dev_SAND_complete_opt3_DRIFT1.root
+1737472162 NOTICE gmxpl : [n] <gMaxPathLengths.cxx::GetCommandLineArgs (248)> : Output XML file         : /storage/gpfs_data/neutrino/users/gsantoni/productions/SAND_2/SAND_2_0/EC_yoke_corrected_1212_dev_SAND_complete_opt3_DRIFT1.xml
+1737472162 NOTICE gmxpl : [n] <gMaxPathLengths.cxx::GetCommandLineArgs (249)> : Geometry length units   : 5.06773e+13
+1737472162 NOTICE gmxpl : [n] <gMaxPathLengths.cxx::GetCommandLineArgs (250)> : Geometry density units  : 4.31013e-17
+1737472162 NOTICE gmxpl : [n] <gMaxPathLengths.cxx::GetCommandLineArgs (251)> : Scanner points/surface  : -1
+1737472162 NOTICE gmxpl : [n] <gMaxPathLengths.cxx::GetCommandLineArgs (252)> : Scanner rays/point      : -1
+1737472162 NOTICE gmxpl : [n] <gMaxPathLengths.cxx::GetCommandLineArgs (253)> : Random number seed      : -1
+1737472162 NOTICE gmxpl : [n] <gMaxPathLengths.cxx::GetCommandLineArgs (255)> : 
+
+1737472162 NOTICE gmxpl : [n] <gMaxPathLengths.cxx::GetCommandLineArgs (256)> : Global running options:
+ GENIE tune: Custom GENIE tune: G18_02a_00_000
+ - Prefix ............... : G
+ - Year ................. : 18
+ - Major model ID ....... : 02
+ - Minor model ID ....... : a
+ - Tuned param set ID ... : 00
+ - Fit dataset ID ....... : 000
+ - Tune directory ....... : /opt/exp_software/neutrino/al9/GENIE/R-3_06_00/source/config/G18_02a
+ - Base directory ....... : /opt/exp_software/neutrino/al9/GENIE/R-3_06_00/source/config
+ - Custom directory ..... : /storage/gpfs_data/neutrino/SAND/LBNF-GSIMPLE-FILES/gsimple_subdetectors
+
+ Event generator list: Default
+ User-specified message thresholds : /opt/exp_software/neutrino/al9/GENIE/R-3_04_02/source/config/Messenger_whisper.xml
+ Cache file : 
+ Unphysical event mask (bits: 15 -> 0) : 1111111111111111
+ Event record print level : 3
+ MC job status file refresh rate: 50
+ Pre-calculate all free-nucleon cross-sections? : Yes
+
+1737472162 NOTICE Messenger : [s] <SetPrioritiesFromXmlFile (136)> : Reading msg stream priorities from XML file: //opt/exp_software/neutrino/al9/GENIE/R-3_04_02/source/config/Messenger_whisper.xml
+1737472162 INFO gmxpl : [n] <gMaxPathLengths.cxx::main (120)> : Creating/configuring a ROOT geom. driver
+Info in <TGeoManager::CloseGeometry>: Geometry loaded from file...
+Info in <TGeoManager::SetTopVolume>: Top volume is volWorld. Master volume is volWorld
+Info in <TGeoNavigator::BuildCache>: --- Maximum geometry depth set to 100
+Info in <TGeoManager::Voxelize>: Voxelizing...
+Info in <TGeoManager::CountLevels>: max level = 11, max placements = 419
+Info in <TGeoManager::CloseGeometry>: 216425 nodes/ 7465 volume UID's in Geometry imported from GDML
+Info in <TGeoManager::CloseGeometry>: ----------------modeler ready----------------
+1737472163 INFO gmxpl : [n] <gMaxPathLengths.cxx::main (136)> : Asking input GeomAnalyzerI for the max path-lengths
+1737472163 INFO gmxpl : [n] <gMaxPathLengths.cxx::main (141)> : Maximum path lengths: 
+[-]
+ |---o code: 1000010010 [   H1] -----> path-length = 89.0735
+ |---o code: 1000060120 [  C12] -----> path-length = 107712
+ |---o code: 1000070140 [  N14] -----> path-length = 58.3934
+ |---o code: 1000080160 [  O16] -----> path-length = 1.49852e+06
+ |---o code: 1000110230 [ Na23] -----> path-length = 11924.1
+ |---o code: 1000120240 [ Mg24] -----> path-length = 86503.3
+ |---o code: 1000130270 [ Al27] -----> path-length = 164518
+ |---o code: 1000140280 [ Si28] -----> path-length = 746643
+ |---o code: 1000150310 [  P31] -----> path-length = 926.471
+ |---o code: 1000160320 [  S32] -----> path-length = 56408.1
+ |---o code: 1000180400 [ Ar40] -----> path-length = 0.69819
+ |---o code: 1000200400 [ Ca40] -----> path-length = 82796.1
+ |---o code: 1000240520 [ Cr52] -----> path-length = 0
+ |---o code: 1000260560 [ Fe56] -----> path-length = 287042
+ |---o code: 1000280590 [ Ni59] -----> path-length = 0
+ |---o code: 1000290640 [ Cu64] -----> path-length = 575.506
+ |---o code: 1000791970 [Au197] -----> path-length = 0
+ |---o code: 1000822070 [Pb207] -----> path-length = 6565.08
